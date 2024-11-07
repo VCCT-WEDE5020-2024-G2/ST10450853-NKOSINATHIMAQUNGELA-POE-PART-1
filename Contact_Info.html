@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Contact Information</title>
+    <style>
+
+        
+      </style>
 </head>
 <body>
-    <h1>Contact Information</h1>
-
+    
     <header>
         <a href="index.html">Home Page</a>
         <a href="Gallery.html">Gallery</a>
         <a href="Donations.html">Donations</a>
         <a href="Vacancy.html">Vacancies</a>
     </header>
+
+    <h1>Contact Information</h1>
+
+    
 
     <u>
         <h2>Telephone</h2>
@@ -25,9 +32,24 @@
         <h2> Email</h2>
     </u>
     <p>Helpinghands@gmail.com</p>
-    
+
+    <u>
+        <h2>Enquiry</h2>
+    </u>
+
+    <div class="contact-form">
+    <form action="mailto:maqungelasibusiso@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="fullname" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+</div>
 </body>
-<footer>
+
+
+<footer class="footer">
     <a href="Contact_Info.html">Contact Information</a>
     <a href="About.html"> About us</a>
 </footer>

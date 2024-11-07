@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="path/to/lightbox.css" rel="stylesheet" />
     <title>Gallery</title>
 </head>
 <body>
@@ -14,10 +15,18 @@
         <a href="Donations.html">Donations</a>
         <a href="Vacancy.html">Vacancies</a>
     </header>
-
-    <img src="_images/pexels-gesel-763398 (1).jpg" alt="storm in Cape Town">
-    <img src="_images/pexels-andiravsanjani-1915182 (1).jpg" alt="rain on building">
-   
+<section>
+    <div>
+        <a class="lightbox" href="./_images/pexels-gesel-763398 (1).jpg" data-lightbox="example-set" data-title="A storm in Cape Town  ">
+            <img class="storm" src="./_images/pexels-gesel-763398 (1).jpg" alt=""/>
+        </a>
+        <a class="lightbox" href="./_images/pexels-andiravsanjani-1915182 (1).jpg" data-lightbox="example-set" data-title="A rain storm in Cape Town  ">
+            <img class="rain" src="./_images/pexels-andiravsanjani-1915182 (1).jpg" alt=""/>
+        </a>
+    
+    </div>
+</section>
+<script src="lightbox-plus-jquery.js"></script> 
 </body>
 <footer>
     <a href="Contact_Info.html">Contact Information</a>
